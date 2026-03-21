@@ -12,7 +12,7 @@ gem "solrengine-transactions"
 
 ```bash
 rails generate solrengine:transactions:install
-rails db:migrate
+rails db:prepare
 ```
 
 ## Configuration
